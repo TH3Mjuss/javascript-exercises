@@ -10,6 +10,7 @@ const removeFromArray = function(...params) {
 
     let myArray = arguments[0];
 
+    // Remove Arguments from array
     for (item in argsArray) {
         let toRemove = myArray.indexOf(argsArray[item]);
         if (toRemove == -1) { 
